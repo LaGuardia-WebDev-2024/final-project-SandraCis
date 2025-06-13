@@ -3,15 +3,77 @@
   <head>
     <meta charset="utf-8" />
     <title>Final Project</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    
     <style>
-      /* Styling Only Related To THIS Page */
-      .parent-flex {
+      
+      body{
+        font-family:'Playfair Display', serif;
+        backgroung-color: #ffe6f0;
+        margin: 0;
+        padding 0;
+      }
+      ul.nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ff69b4;
+      }
+     
+      ul.nav li{
+        float: left;
+      }
+      
+      ul.nav li a { 
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: bold;
+      }
+     
+      ul.nav li a:hover:not(.active) {
+        background-color: #ff1493;
+      }
+      
+      .active {
+        background-color: #d63384;
+        }
+      
+      h1{
+        text-align: center;
+        color: #c71585
+        margin-top: 40px;
+      }
+      
+      .section{
         display: flex;
-        background-color: purple;
         align-items: center;
-        justify-content: space-around;
-        margin-bottom: 50px;
+        justify-content: center;
+        padding: 40px;
+      }
+      
+      .section:nth-child(even){
+        background-color: #ffd6e8
+      }
+      
+      .section:nth-child(odd) {
+        background-color: #fff0f5;
+      }
+      
+      .section img {
+        width: 250px;
+        border-radius: 10px;
+        margin: 20px;
+      }
+      
+      .section p {
+        max-width: 500px;
+        font-size: 18px;
+        color: #333;
+        margin: 20px;
       }
 
       .parent-flex img {
@@ -35,7 +97,7 @@
       <li style="float: right">
         <a target="_blank" href=""
           ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
+            src=""
             style="width: 25px; margin: -5px"
         /></a>
       </li>
@@ -53,37 +115,39 @@
     <div class="parent-flex">
       <div class="child-flex">
         <img
-          src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+          src="https://cdn.glitch.global/621d62de-12dd-4338-8d2d-e0f4ac6b497e/IMG_3042.JPEG?v=1749788622206" 
+             alt="Young me with my dad">
+        <img
+          src="https://cdn.glitch.global/621d62de-12dd-4338-8d2d-e0f4ac6b497e/b6c18e82-05c9-4e40-8f2e-2766ef0ab265.JPG?v=1749789158306"
+        />
+         <img
+          src="https://cdn.glitch.global/621d62de-12dd-4338-8d2d-e0f4ac6b497e/e74ba799-db6e-4bb5-9059-5e922ed2ab9a.JPG?v=1749789788474"
         />
       </div>
       <div class="child-flex">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+        I began dancing at six, but only started training seriously at eleven. that may be considered late in the dance world, but it didnt stop me This is a photo of me and my dad at one of my first recitals—when I knew I’d found what I loved.
+    </p>
+  </div>
+
         </p>
       </div>
     </div>
     <div class="parent-flex">
       <div class="child-flex">
+       <img
+          src="https://cdn.glitch.global/621d62de-12dd-4338-8d2d-e0f4ac6b497e/IMG_6450.jpg?v=1749789636049"
+        />
+        <img src= "https://cdn.glitch.global/621d62de-12dd-4338-8d2d-e0f4ac6b497e/IMG_2838.jpg?v=1749789335773"/>
+         <img
+          src="https://cdn.glitch.global/621d62de-12dd-4338-8d2d-e0f4ac6b497e/1f58ec30-2124-47d3-9939-a72c95ad0fb3.JPG?v=1749789654892"
+        />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+       I trained at Dance Theatre of Harlem and moved quickly through the levels. After COVID, I was accepted into LaGuardia High School and Ballet Academy East. I’ve attended summer intensives at Alonzo King LINES Ballet and Atlanta Ballet, each helping me grow as an artist and a person.
         </p>
       </div>
       <div class="child-flex">
-        <img
-          src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-        />
+        
       </div>
     </div>
   </body>
