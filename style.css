@@ -1,9 +1,13 @@
 /* Styling Only Related To ALL Pages */
 
 body {
+  font-family: 'Pacifico', cursive;
+  background-color: #ffe6f0;
+  color: #800e4f;
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  text-align: center;
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -13,11 +17,11 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #ffb6c1;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 1000;
 }
 
 ul.nav li {
@@ -30,16 +34,25 @@ ul.nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transotion: background-color 0.3s ease;
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #f06292;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: #d81b60;
 }
 
 h1 {
+  font-size: 36px;
+  margin: 30px 0 20px;
   width: 100%;
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff
 }
